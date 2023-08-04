@@ -1,0 +1,273 @@
+*{
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+
+.nav{
+    display: flex;
+    
+   
+}
+ul{
+   display: flex;
+   list-style: none; 
+   margin: 5px;
+}
+.nav ul li a{
+    text-decoration: none;
+    margin: 15px;
+    color: rgb(97, 97, 97);
+    opacity: 0.9;
+    font-family: 'Merriweather', serif;
+    font-family: 'Monoton', cursive;
+    font-family: 'Nunito Sans', sans-serif;
+}
+nav{
+   margin: 0 !important;
+    padding: 10px;
+    position:fixed;
+    z-index: 99;
+    background-color: white;
+    width: 100%;
+    
+   
+    
+}
+.img{
+    border-radius: 20%;
+    margin-left: 30px;
+    justify-content: space-between;
+}
+.nav1{
+    margin-left: 200px;
+    justify-content: space-between;
+    
+}
+.icon{
+    padding-left: 80px;
+}
+.icon i{
+padding-left: 40px;
+}
+
+ul li a:hover{
+    color: rgb(0, 0, 0);
+
+}
+ 
+.background img{
+   position:absolute;
+   
+}
+.hello {
+    display: flex;
+    flex-direction: column;
+    position:relative;
+    justify-content: center;
+     align-items: start; 
+    height: 65vh;
+    width: 50%;
+    color: rgb(235, 228, 228);
+    font-family: 'Merriweather', serif;
+   font-family: 'Monoton', cursive;
+   font-family: 'Nunito Sans', sans-serif;
+   font-family: 'Roboto', sans-serif;
+   text-align: left;
+   font-size: x-large;
+   
+   gap: 10px;
+   text-align: right;
+   padding-left: 150px;
+letter-spacing: 2px;
+}
+
+.p{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    padding: 5px;
+    
+    font-size: medium;
+    column-gap: 10px;
+   
+}
+/* ...........................................................section 2................................................ */
+
+.column{
+    float: left;
+  width: 50%;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 80vh;
+    letter-spacing: 3px;
+    row-gap: 20px;
+    
+   
+}
+.button{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    border: white;
+    width: 150px;
+    height: 40px;
+
+}
+.button:hover{
+    background-color: rgb(85, 83, 83);
+}
+
+.red{
+    font-size: 30px;
+   
+}
+.price{
+    font-size: 30px;
+}
+
+.row{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    column-gap: 45px;
+        
+      
+}
+.SmartHome{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    color:rgb(133, 129, 129);
+    font-family: 'Merriweather', serif;
+   font-family: 'Monoton', cursive;
+   font-family: 'Nunito Sans', sans-serif;
+   font-family: 'Roboto', sans-serif;
+
+}
+.container2 h1{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    margin: 70px;
+    color:rgb(133, 129, 129);
+    font-family: 'Merriweather', serif;
+   font-family: 'Monoton', cursive;
+   font-family: 'Nunito Sans', sans-serif;
+   font-family: 'Roboto', sans-serif;
+}
+ .para5{
+    font-size: 24px;
+    color: rgb(134, 132, 132);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+    font-family: 'Merriweather', serif;
+   font-family: 'Monoton', cursive;
+   font-family: 'Nunito Sans', sans-serif;
+   font-family: 'Roboto', sans-serif;
+   line-height: 50px;
+  
+   padding-left:80px ;
+}
+
+
+.container3 .row img{
+    animation-name: photo;
+    animation-duration: 3s;
+}
+.container3 .row img:hover{
+    
+    background-color: aqua;
+}
+
+    
+
+
+
+.container4 h1{
+    font-size: 50px;
+    color: rgb(107, 105, 105);
+padding-left: 44%;
+letter-spacing: 3px;
+margin-top: 45px;
+font-family: 'Merriweather', serif;
+font-family: 'Monoton', cursive;
+font-family: 'Nunito Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+line-height: 50px;
+
+   
+
+}
+.container4,.row{
+    margin-top: 60px;
+}
+.container4 .row img{
+    border-radius: 20px;
+    margin-left: 40px;
+    box-shadow: 5px 2px 5px 1px rgb(202, 199, 199)
+}
+.container5 .row img{
+    box-shadow: 5px 2px 5px 1px rgb(202, 199, 199);
+    border-radius: 20px;
+   margin-right: 30px;
+}
+.container6 .row {
+    display: flex;
+    /* flex-direction: column; */
+    width: 100%;
+    justify-content: space-around;
+}
+
+.container6 .row .column-4,.container6 .row .column-4 ul {
+    display: flex;
+    flex-direction: column;
+    color: rgb(231, 229, 229);
+    padding-top: 10px;
+}
+.container6 .row .column-4,.container6 .row .column-4 ul li {
+    padding-top:15px;
+    letter-spacing: 1px;
+}
+
+
+
+    .container6{
+        background-color: rgb(51, 53, 52);
+        display: flex;
+        height: 70vh;
+    }
+    .container6 .column-4  i{
+        font-size: larger;
+        padding-top: 10px;
+        
+         
+    }
+.icons{
+    display: flex;
+    
+    
+}
+.icons i{
+    padding-left: 15px;
+}
+@media screen and (min-width:320px) and (max-width:426px) {
+    .background{
+        width: 100%;
+        
+     }
+    
+}
+
